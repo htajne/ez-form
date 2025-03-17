@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "c9be1019-25e5-40bb-ac35-30402f793374",
+		"name": "EZWorks API",
+		"description": "Postman collection for EZWorks API integration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43140497"
+	},
+	"item": [
+		{
+			"name": "Submit Email API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"text@ex.works\"\n}"
+				},
+				"url": {
+					"raw": "https://test.ezworks.ai/api",
+					"protocol": "https",
+					"host": [
+						"test",
+						"ezworks",
+						"ai"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test.ezworks.ai/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"text@ex.works\"\n}"
+				},
+				"url": {
+					"raw": "https://test.ezworks.ai/api",
+					"protocol": "https",
+					"host": [
+						"test",
+						"ezworks",
+						"ai"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
